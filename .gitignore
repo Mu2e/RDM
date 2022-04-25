@@ -1,32 +1,45 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+*~
+\#*
+BaBar/BField/
+BaBar/BaBar/
+BaBar/BbrGeom/
+BaBar/CLHEP/
+BaBar/Dch/
+BaBar/DetectorModel/
+BaBar/KalmanTrack/
+BaBar/MatEnv/
+BaBar/ProbTools/
+BaBar/TrajGeom/
+BaBar/TrkBase/
+BaBar/difAlgebra/
+.sconsign.dblite
+bin/artProductSizes
+bin/eventCount
+bin/valCompare
+bin/dbTool
+bin/deps
+lib
+tmp
+gen
+*.stn
+*.hist
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
 *.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+*.os
+*.root
+*.art
+*.log
+*.log.*
+*.pdf
+*.pyc
+*.orig
+*nfs
+*.bz2
+*.swp
+BaBar/include
+EMFCAnalysis
+.tup
+.buildopts
+tags
+.clangd/*
+compile_commands.json

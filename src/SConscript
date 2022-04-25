@@ -1,0 +1,22 @@
+#!/usr/bin/env python
+#
+# Script to build the files found in this directory.
+#
+
+import os
+Import('env')
+Import('mu2e_helper')
+
+helper=mu2e_helper(env);
+
+mainlib = helper.make_mainlib ( [ 'pq' ] )
+
+#helper.make_bin("rdmTool",[ mainlib, 'pq' ] )
+
+helper.make_bin("rawDataMover",[ mainlib, 'pthread', 'pq' ] )
+
+
+# This tells emacs to view this file in python mode.
+# Local Variables:
+# mode:python
+# End:
